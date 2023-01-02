@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Title of Webstite - shown on tab -->
+<title> Health Power Up </title>
+
+<meta charset= "UTF-8">
+<meta name= "viewport" content= "width= device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="TopNav.css">
+
+
+<!--topnav bar -->
+<div class="topnav">
+<div class="logo"><img src="homePagePicture.png" class="w3-round w3-image" alt="WSU logo" width="50" height="50"><b><i> Health Power Up</i></b></div>
+<div class="menu">
+ 
+  <a  href="HomePage.html">Home</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="FreeSocialEvent.html">Free Social Event</a>
+  <a href="talkwiththerapist.html">Talk With Therapist</a>
+  <a href="Information.html">Information</a>
+  <a href="Feedback.html">Feedback</a>
+</div>
+</div>
+<style>
+
+*{
+    margin:0;
+    box-sizing: border-box;
+  }
+
+  .topnav {
+    background-color: #74c6d4;
+    overflow: hidden;
+    display: flex;
+    padding: 20px;
+     justify-content: space-between;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 7px;
+  }
+
+  .logo{
+    color: white;
+    padding-right: 20px;
+    font-size: 32px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4D4D4D;
+    color: white;
+  }
+
+  h1{
+    background-color: #74c6d4;
+  }
+  footer{
+    width: 100%;
+    bottom: 212px;
+    position: relative;
+    left: 0;
+    height: 50px;
+    text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+  <div id="section03">
+    <div class="w3-conatiner w3-center w3-text-white" style="background-color:#6acfca">
+      <h1> Talk with Therapist </h1>
+    </div>
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label fw-bold">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+<br><br>
+
+             <!-- Footer  -->
+             <footer>
+              <svg viewBox="0 0 120 28">
+               <defs> 
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="
+                         1 0 0 0 0  
+                         0 1 0 0 0  
+                         0 0 1 0 0  
+                         0 0 0 13 -9" result="goo" />
+                    <xfeBlend in="SourceGraphic" in2="goo" />
+                  </filter>
+                   <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+                </defs> 
+              
+                 <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+                 <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+               
+               
+                <g class="gooeff" filter="url(#goo)">
+                <circle class="drop drop1" cx="20" cy="2" r="8.8"  />
+                <circle class="drop drop2" cx="25" cy="2.5" r="7.5"  />
+                <circle class="drop drop3" cx="16" cy="2.8" r="9.2"  />
+                <circle class="drop drop4" cx="18" cy="2" r="8.8"  />
+                <circle class="drop drop5" cx="22" cy="2.5" r="7.5"  />
+                <circle class="drop drop6" cx="26" cy="2.8" r="9.2"  />
+                <circle class="drop drop1" cx="5" cy="4.4" r="8.8"  />
+                <circle class="drop drop2" cx="5" cy="4.1" r="7.5"  />
+                <circle class="drop drop3" cx="8" cy="3.8" r="9.2"  />
+                <circle class="drop drop4" cx="3" cy="4.4" r="8.8"  />
+                <circle class="drop drop5" cx="7" cy="4.1" r="7.5"  />
+                <circle class="drop drop6" cx="10" cy="4.3" r="9.2"  />
+                
+                <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
+                <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
+                <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
+                  <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
+                <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
+                <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+               </g>  
+                  <g mask="url(#xxx)">
+                  <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+                  </g>
+                </g>
+              
+              </svg>
+              
+                <div>Made By Devansh and Naomi
+                  <br>
+                  Hackathon Project --> PoweringSTEMHacks
+                </div>
+              </footer>
+</body>
+
+</html>
